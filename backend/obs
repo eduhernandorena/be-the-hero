@@ -1,0 +1,46 @@
+/**
+ * Rota / Recurso
+ */
+
+/**
+ * Métodods HTTP:
+ *
+ * GET: buscar/listar uma informação do back-end
+ * POST: criar uma informação no back-end
+ * PUT: aletrar uma informação no back-end
+ * DELETE: deletar uma informação no back-end
+ */
+
+/**
+  * Tipos de parametros:
+  *
+  * Query Params: parametros nomeados enviados na rota após "?" (Filtros, paginação)
+  * Route Params: parametros utilizados para identificar recursos
+  * Request Body: corpo da requisição, utilizado para criar ou alterar recursos
+  */
+
+  /**
+   * SQL: MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server
+   * NoSQL: MongoDB, CouchDB, etc
+   */
+
+   /**
+    * Driver: SELECT * FROM users
+    * Query Builder: table('users').select('*').where()
+    */
+
+* Entidades:
+
+-- ONG
+-- CASO(incident)
+
+* Funcionalidades:
+
+-- Login de ONG
+-- Logout de ONG
+-- Cadastro de ONG
+-- Cadastro de casos
+-- Deletar casos
+-- Listar casos
+-- Listar todos os casos
+-- Entrar em contato com a ONG
